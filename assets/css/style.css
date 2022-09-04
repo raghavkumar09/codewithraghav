@@ -17,6 +17,7 @@
   --independence: hsl(224, 89%, 7%);
   --orange-soda: hsl(150, 96%, 61%);
   --space-cadet: hsl(243, 23%, 18%);
+  --space-cadet-transparent: hsla(243, 23%, 18%, 0.6);
   --fiery-rose: hsl(353, 83%, 65%);
   --klein-blue: hsl(230, 80%, 39%);
   --bluetiful: hsl(222, 88%, 55%);
@@ -248,7 +249,7 @@ body {
   position: fixed;
   padding-block: 15px;
   width: 100%;
-  background-color: var(--space-cadet);
+  background-color: var(--space-cadet-transparent);
   height: 65px;
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -840,7 +841,7 @@ textarea.contact-input {
 
   .header,
   .header.nav-active {
-    background-color: transparent;
+   
     box-shadow: none;
     height: unset;
     padding-block: 30px;
