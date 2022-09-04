@@ -36,9 +36,9 @@
 
   --fs-1: 3.5rem;
   --fs-2: 3rem;
-  --fs-3: 2.4rem;
-  --fs-4: 2rem;
-  --fs-5: 1.8rem;
+  --fs-3: 3.4rem;
+  --fs-4: 4rem;
+  --fs-5: 3.8rem;
   --fs-6: 1.3rem;
 
   --fw-600: 600;
@@ -148,8 +148,8 @@ body {
   font-family: 'Edu VIC WA NT Beginner', cursive;
   background-color: var(--space-cadet);
   color: var(--cadet-blue-crayola);
-  font-size: 1.6rem;
-  line-height: 1.6;
+  font-size: 3.5rem;
+  line-height: 1.4;
   overflow-x: hidden;
 }
 
@@ -178,7 +178,7 @@ body {
 \*-----------------------------------*/
 
 .container {
-  padding-inline: 20px;
+  padding-inline: 30px;
 }
 
 .btn {
@@ -482,7 +482,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 120px 20px;
+  padding: 215px 20px;
   border-radius: var(--radius-20);
   font-family: var(--ff-barlow);
   color: var(--white);
@@ -776,8 +776,8 @@ textarea.contact-input {
    */
 
   .portfolio-card {
-    background-size: 115%;
-    padding-inline: 80px;
+    background-size: 200%;
+    padding-inline: 120px;
   }
 
   .portfolio-card:is(:hover, :focus) {
@@ -810,8 +810,8 @@ textarea.contact-input {
      * typography
      */
 
-    --fs-1: 6.4rem;
-    --fs-2: 3.5rem;
+    --fs-1: 8.4rem;
+    --fs-2: 4.6rem;
     --fs-3: 3.6rem;
 
     /**
@@ -826,7 +826,7 @@ textarea.contact-input {
    */
 
   .container {
-    max-width: 1050px;
+    max-width: none;
     margin-inline: auto;
   }
 
@@ -878,11 +878,11 @@ textarea.contact-input {
   }
 
   .hero-content {
-    text-align: left;
+    text-align: center;
   }
 
   .btn-group {
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .hero-title span {
@@ -890,7 +890,7 @@ textarea.contact-input {
   }
 
   .hero-title {
-    --fs-5: 2.2rem;
+    --fs-5: 3.2rem;
     margin-block-end: 25px;
   }
 
@@ -983,7 +983,7 @@ textarea.contact-input {
    */
 
   .about {
-    padding-block: 180px;
+    padding-block: 100px;
   }
 
   .about .container {
@@ -1046,7 +1046,7 @@ textarea.contact-input {
   }
 
   .portfolio-card .btn-link {
-    --fs-6: 1.6rem;
+    --fs-6: 2.6rem;
   }
 
   /**
