@@ -357,8 +357,8 @@ body {
 }
 
 .hero-banner {
-  width: 77vw;
-  height: 30vh;
+  width: 60vw;
+  height: 35vh;
   background-color: var(--independence);
   border-radius: var(--radius-20);
   margin-inline: auto;
@@ -462,6 +462,7 @@ body {
   font-family: var(--ff-barlow);
   color: var(--white);
   font-weight: var(--fw-600);
+  margin-left: -40px;
   transition: var(--transition-2);
 }
 
@@ -533,7 +534,7 @@ body {
 
 .contact-card {
   background-color: var(--midnight-blue);
-  padding: 50px 50px;
+  padding: 50px 20px;
   margin-bottom: 40px;
   border-radius: var(--radius-20);
 }
@@ -1102,6 +1103,11 @@ textarea.contact-input {
     align-items: center;
   }
 
+  .footer-content {
+    display: flex;
+    font-size: 13px;
+  }
+  
   .copyright,
   .footer-list {
     margin-inline: 0;
